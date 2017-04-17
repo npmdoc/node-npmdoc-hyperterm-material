@@ -1,0 +1,211 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/dperrera/hyperterm-material#readme">hyperterm-material (v0.1.8)</a>
+</h1>
+<h4>A material inspired theme for Hyper.</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hyperterm-material">module hyperterm-material</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hyperterm-material.decorateConfig">
+            function <span class="apidocSignatureSpan">hyperterm-material.</span>decorateConfig
+            <span class="apidocSignatureSpan">(config)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hyperterm-material.decorateConfig">module hyperterm-material.decorateConfig</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hyperterm-material.decorateConfig.decorateConfig">
+            function <span class="apidocSignatureSpan">hyperterm-material.</span>decorateConfig
+            <span class="apidocSignatureSpan">(config)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hyperterm-material" id="apidoc.module.hyperterm-material">module hyperterm-material</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hyperterm-material.decorateConfig" id="apidoc.element.hyperterm-material.decorateConfig">
+        function <span class="apidocSignatureSpan">hyperterm-material.</span>decorateConfig
+        <span class="apidocSignatureSpan">(config)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">(config) =&gt; {
+  return Object.assign({}, config, {
+    foregroundColor: '#ECEFF1',
+    backgroundColor: '#263238',
+    borderColor: '#222d32',
+    cursorColor: config.cursorColor || 'rgba(0, 150, 136, .5)',
+    colors: {
+      black: '#263238',
+      red: '#FF5252',
+      green: '#9CCC65',
+      yellow: '#fee94e',
+      blue: '#2b98f0',
+      magenta: '#b38bfc',
+      cyan: '#68b6f3',
+      white: '#ECEFF1',
+      lightBlack: '#617d8a',
+      lightRed: '#fc625d',
+      lightGreen: '#9CCC65',
+      lightYellow: '#fee94e',
+      lightBlue: '#2b98f0',
+      lightMagenta: '#b38bfc',
+      lightCyan: '#68b6f3',
+      lightWhite: '#ffffff'
+    },
+    css: `
+      ${config.css || ''}
+      .hyper_main {
+        border: none !important;
+      }
+      .header_header {
+        background: #222d32 !important;
+      }
+      .tab_tab {
+        border: 0;
+      }
+      .tab_textActive {
+        border-bottom: 2px solid #009688;
+      }
+      .splitpane_divider {
+        background-color: rgba(170, 187, 195, 0.16) !important;
+      }
+    `
+  })
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hyperterm-material.decorateConfig" id="apidoc.module.hyperterm-material.decorateConfig">module hyperterm-material.decorateConfig</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hyperterm-material.decorateConfig.decorateConfig" id="apidoc.element.hyperterm-material.decorateConfig.decorateConfig">
+        function <span class="apidocSignatureSpan">hyperterm-material.</span>decorateConfig
+        <span class="apidocSignatureSpan">(config)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">(config) =&gt; {
+  return Object.assign({}, config, {
+    foregroundColor: '#ECEFF1',
+    backgroundColor: '#263238',
+    borderColor: '#222d32',
+    cursorColor: config.cursorColor || 'rgba(0, 150, 136, .5)',
+    colors: {
+      black: '#263238',
+      red: '#FF5252',
+      green: '#9CCC65',
+      yellow: '#fee94e',
+      blue: '#2b98f0',
+      magenta: '#b38bfc',
+      cyan: '#68b6f3',
+      white: '#ECEFF1',
+      lightBlack: '#617d8a',
+      lightRed: '#fc625d',
+      lightGreen: '#9CCC65',
+      lightYellow: '#fee94e',
+      lightBlue: '#2b98f0',
+      lightMagenta: '#b38bfc',
+      lightCyan: '#68b6f3',
+      lightWhite: '#ffffff'
+    },
+    css: `
+      ${config.css || ''}
+      .hyper_main {
+        border: none !important;
+      }
+      .header_header {
+        background: #222d32 !important;
+      }
+      .tab_tab {
+        border: 0;
+      }
+      .tab_textActive {
+        border-bottom: 2px solid #009688;
+      }
+      .splitpane_divider {
+        background-color: rgba(170, 187, 195, 0.16) !important;
+      }
+    `
+  })
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
