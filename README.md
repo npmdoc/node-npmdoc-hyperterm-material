@@ -1,4 +1,7 @@
-# api documentation for  [hyperterm-material (v0.1.8)](https://github.com/dperrera/hyperterm-material#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-hyperterm-material.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-hyperterm-material) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-hyperterm-material.svg)](https://travis-ci.org/npmdoc/node-npmdoc-hyperterm-material)
+# npmdoc-hyperterm-material
+
+#### basic api documentation for  [hyperterm-material (v0.1.8)](https://github.com/dperrera/hyperterm-material#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-hyperterm-material.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-hyperterm-material) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-hyperterm-material.svg)](https://travis-ci.org/npmdoc/node-npmdoc-hyperterm-material)
+
 #### A material inspired theme for Hyper.
 
 [![NPM](https://nodei.co/npm/hyperterm-material.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/hyperterm-material)
@@ -53,7 +56,8 @@
         "url": "git+https://github.com/dperrera/hyperterm-material.git"
     },
     "scripts": {},
-    "version": "0.1.8"
+    "version": "0.1.8",
+    "bin": {}
 }
 ```
 
